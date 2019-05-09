@@ -1,0 +1,35 @@
+#main {
+ max-width: 100vw;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background: lightblue
+}
+
+#title {
+ font-size: 2em;
+}
+
+#img-div {
+ /* max-width: 100%; */
+ background: white;
+}
+
+#image {
+ max-width: 100%;
+ margin: 0px auto;
+ padding: 0px 50px;
+}
+
+#img-caption {}
+
+#tribute-info {
+ display: flex;
+ margin: 0px auto;
+ padding: 0px 40px;
+ max-width: 800px;
+}
+
+#tribute-link {
+ padding: 0px 40px;
+}
