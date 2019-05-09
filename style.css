@@ -3,7 +3,7 @@
  display: flex;
  flex-direction: column;
  align-items: center;
- background: lightblue
+ background: lightgray
 }
 
 #title {
@@ -18,10 +18,12 @@
 #image {
  max-width: 100%;
  margin: 0px auto;
- padding: 0px 50px;
 }
 
-#img-caption {}
+#img-caption {
+ padding: 10px 0px;
+ text-align: center;
+}
 
 #tribute-info {
  display: flex;
@@ -30,6 +32,11 @@
  max-width: 800px;
 }
 
+#tribute-info div ul li {
+ padding: 10px 0px;
+}
+
 #tribute-link {
- padding: 0px 40px;
+ text-decoration: none;
+ color: teal;
 }
